@@ -1,10 +1,9 @@
 import java.util.*;
-class Demo4{
+class Demo3{
 public static void main(String[] args) throws Exception
 {
 System.out.println("Enter the data");
 Scanner sc=new Scanner(System.in);
-int n=sc.nextInt();
-System.out.println("Hello "+n);
-}
-}
+String name=sc.next();
+System.out.println("Hello"+name);
+}}
